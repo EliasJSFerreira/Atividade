@@ -1,5 +1,25 @@
-* {
-    margin: 0;
-    border: 0;
+.titulo {
+    display: flex;
+    justify-content: center;
+}
+
+.imagemRa {
+    text-align: center;
+}
+
+.imagemRa img {
+    text-align: center;
+    height: 480px;
+    width: 640px;
+}
+
+
+.imagem {
+    text-align: center; 
+    height: 500px;
     
 }
+
+
+
+
