@@ -1,18 +1,55 @@
-
+p, h1, h2, h3, li{
+    color: #fff;
+}
 
 body, html {
     height: 100%;
     margin: 0px;
     text-align: center;
+    background-image: url(./download.jpg);
 }
+
+nav {
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #fffdfd;
+    background-color: black;
+    border: 0;
+    
+}
+nav :hover {
+    background-color: #fff;
+    color: #000000;
+
+}
+
+.centralizar {
+    max-width: 1000px; 
+    margin: 0 auto; 
+    
+    background-color: #000000; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+
 
 header, footer {
     background-color: #ff0000;
-    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
+    background-color: #000000;
     
 }
 
+main {
+    background-color: #ff0000;
+}
 p {
     margin-left: 200px;
     margin-right: 200px;
